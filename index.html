@@ -17,8 +17,15 @@
     <div id="title">
         <img src="/public/logo.png">
         <h1>Vue.js Cinema</h1>
-        {{msg}}
     </div>
+
+    <div id="overview">
+        <div class="main">
+            <movie-list></movie-list>
+            <movie-filter></movie-filter>
+        </div>
+    </div>
+
 </div>
 <script src="node_modules/vue/dist/vue.js"></script>
 <script src="/dist/build.js"></script>
